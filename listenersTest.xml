@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Listeners Test" parallel="tests">
+	 <listeners>
+		<listener class-name="listenersTest.Listeners"></listener>
+		<!-- <listener class-name="retryListener.RetryListner"></listener>
+ -->		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners> 
+	<parameter name="browser" value="chrome"></parameter>
+	
+	<test name="chrome Test">	
+		<classes>
+			<class name="listenersTest.GmailTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
