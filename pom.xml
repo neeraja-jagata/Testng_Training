@@ -14,7 +14,7 @@
 		<selenium.version>3.141.59</selenium.version>
 		<assertj-core.version>3.12.2</assertj-core.version>
 		<testng.version>6.14.3</testng.version>
-		<apache-poi.version>4.1.0</apache-poi.version>
+		<apache-poi.version>4.1.1</apache-poi.version>
 		<log4j.version>1.2.17</log4j.version>
 		<dom4j.version>1.6.1</dom4j.version>
 		<javax_mail.version>1.4.7</javax_mail.version>
